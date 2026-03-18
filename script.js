@@ -23,7 +23,7 @@ function createTaskItem(title, details = 'Sem detalhes') {
     detailsBtn.className = 'task-details-btn';
     detailsBtn.textContent = 'Detalhes';
     detailsBtn.addEventListener('click', function() {
-        alert(`Detalhes: ${details}`);
+        alert(details   );
     });
 
     const removeBtn = document.createElement('button');
